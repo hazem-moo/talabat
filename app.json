@@ -2,29 +2,40 @@
   "expo": {
     "name": "talabat",
     "slug": "talabat",
+    "description": "this app give you foods ",
+    "privacy": "public",
+    "githubUrl": "https://github.com/hazem-moo/talabat",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/cover/cover.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ea580c"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hazemmohamed.talabat"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/cover/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hazemmohamed.talabat"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea0940eb-aa4d-4299-8848-e5bfa094340f"
+      }
+    },
+    "owner": "hazem-mohamed"
   }
 }
